@@ -11,7 +11,7 @@ const Footer = (props) => {
         <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{' '}
         <a
           rel="noopener"
-          href="https://github.com/OmarBakr2020"
+          href="https://github.com/omarbakr2020"
           aria-label="My GitHub"
         >
           {' '}

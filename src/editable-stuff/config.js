@@ -13,7 +13,7 @@ const mainBody = {
   icons: [
     {
       image: 'fa-github',
-      url: 'https://github.com/OmarBakr2020',
+      url: 'https://github.com/omarbakr2020',
     },
     {
       image: 'fa-linkedin',
@@ -55,7 +55,7 @@ const about = {
 const repos = {
   show: true,
   heading: 'Recent Projects',
-  gitHubUsername: 'OmarBakr2020', //i.e."johnDoe12Gh"
+  gitHubUsername: 'omarbakr2020', //i.e."johnDoe12Gh"
   reposLength: 0,
   specificRepos: ['shareme', 'realtor', 'adtours', 'e-sounds'],
 };
