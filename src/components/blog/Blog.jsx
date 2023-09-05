@@ -1,7 +1,7 @@
-import React from "react";
-import { BlogBuilder } from "./BlogBuilder";
-import bloglist from "../../editable-stuff/blog";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { BlogBuilder } from './BlogBuilder';
+import bloglist from '../../editable-stuff/blog';
+import { Link } from 'react-router-dom';
 const Blog = (props) => {
   return (
     <div className="container-lg mt-5 bg-blue">
@@ -32,9 +32,7 @@ const BlogCard = ({ index, title, image, description }) => {
             <div className="">
               <h1 className="">{title}</h1>
               <p className="lead">{description}</p>
-              <Link to={`${process.env.PUBLIC_URL}blog/${index}`}>
-                Read more...{" "}
-              </Link>
+              <Link to={`blog/${index}`}>Read more... </Link>
             </div>
           </div>
         </div>
